@@ -1,23 +1,45 @@
+#coverpage {
+  border: 5px solid black;
+  border-radius: 14px;
+  background-color: lightsalmon;
+  padding: 30px;
+  margin: 200px auto 100px auto;
+  width : 400px;
+  text-align: center;
+  box-shadow: 1px 2px 8px rgba(0,0,0,0.5);
+}
+
 body {
   background-color: rgb(235, 225, 212);
   text-align: center;
 }
 
 img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 150px;
+  margin-top: -135px;
 }
 
 h1 {
   font-size: 50px;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  color: rgb(83, 83, 75);
+  color: rgb(44, 44, 42);
+  margin: 10px;
 }
+
+h2 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.608);
+}
+
 p {
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
+  font-weight : bolder;
   text-align: center;
   color: rgb(83, 83, 75);
 }
